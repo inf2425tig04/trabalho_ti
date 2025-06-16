@@ -69,6 +69,7 @@ Descrição do produto final, funcionalidades e implementação.
 
 ### Capítulo 4: Apresentação
 Como o projeto será apresentado ao público ou ao professor.
+
 ---
 
 ## Grupo
