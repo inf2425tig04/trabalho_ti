@@ -5,6 +5,10 @@
 Repositório para o projeto desenvolvido da unidade curricular 'Tecnologias de Informação', do primeiro ano na UMAIA.
 Desenvolvido pelo Grupo 04:
 
+- Marta Vieira  A046756
+- Juliana Moreira  A047188
+- Felipe Castilho  A047152 
+
 <!-- get team members -->
 
 ---
@@ -69,4 +73,6 @@ Como o projeto será apresentado ao público ou ao professor.
 
 ## Grupo
 
-apresentar o grupo
+- Marta Vieira  A046756
+- Juliana Moreira  A047188
+- Felipe Castilho  A047152 
