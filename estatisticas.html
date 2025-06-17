@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Grupo 04">
+  <meta name="description" content="Estatísticas do Ensino">
+  <meta name="keywords" content="educação, estatísticas, dados, ensino">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Estatísticas do Ensino</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>História do Ensino</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">História Geral</a></li>
+        <li><a href="portugal.html">História em Portugal</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+        <li><a href="estatisticas.html">Estatísticas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Números que Contam a Educação</h2>
+
+    <p id="mensagem">Clique no botão para carregar os cursos disponíveis.</p>
+
+    <button id="btn-toggle-tabela">Mostrar Cursos</button>
+    <button id="btn-alterar-texto">Alterar Mensagem</button>
+
+    <div id="tabela-container" style="display:none;">
+      <!-- Tabela carregada aqui via JS -->
+    </div>
+  </main>
+
+  <footer>
+    <address>
+      Info sobre nós, uni etc. | <a href="cursos.xml" download>Download XML</a>
+    </address>
+    <img src="img/logo_uni.png" alt="Logo da universidade" />
+  </footer>
+
+  <script>
+    const btnToggle = document.getElementById('btn-toggle-tabela');
+    const btnAlterarTexto = document.getElementById('btn-alterar-texto');
+    const tabelaContainer = document.getElementById('tabela-container');
+    const mensagem = document.getElementById('mensagem');
+
+    let tabelaVisivel = false;
+    let xmlDados = null;
+
+    // Função para carregar XML via fetch
+    async function carregarXML() {
+      try {
+        const response = await fetch('cursos.xml');
+        if (!response.ok) throw new Error('Erro ao carregar o XML.');
+        const xmlText = await response.text();
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+        return xmlDoc;
+      } catch (error) {
+        mensagem.textContent = "Erro: " + error.message;
+        return null;
+      }
+    }
+
+    // Função para criar tabela HTML a partir do XML
+    function criarTabela(xmlDoc) {
+      if (!xmlDoc) return;
+
+      const cursos = xmlDoc.getElementsByTagName('curso');
+      if (cursos.length === 0) {
+        mensagem.textContent = "Nenhum curso encontrado no XML.";
+        return;
+      }
+
+      let tabela = document.createElement('table');
+      tabela.id = 'tabela-cursos';
+
+      // Cabeçalho da tabela
+      let thead = document.createElement('thead');
+      thead.innerHTML = `
+        <tr>
+          <th>ID</th>
+          <th>Nome do Curso</th>
+          <th>Nível</th>
+          <th>Instituição</th>
+          <th>Duração</th>
+          <th>Professores</th>
+        </tr>`;
+      tabela.appendChild(thead);
+
+      let tbody = document.createElement('tbody');
+
+      for (let curso of cursos) {
+        const id = curso.getAttribute('id') || '';
+        const nome = curso.getElementsByTagName('nome')[0]?.textContent || '';
+        const nivel = curso.getElementsByTagName('nivel')[0]?.textContent || '';
+        const instituicao = curso.getElementsByTagName('instituicao')[0]?.textContent || '';
+        const duracao = curso.getElementsByTagName('duracao')[0]?.textContent || '';
+
+        // Profissionais
+        const professores = curso.getElementsByTagName('professor');
+        let listaProfessores = [];
+        for (let prof of professores) {
+          const nomeProf = prof.getElementsByTagName('nome')[0]?.textContent || '';
+          const espec = prof.getElementsByTagName('especialidade')[0]?.textContent || '';
+          listaProfessores.push(`${nomeProf} (${espec})`);
+        }
+
+        let tr = document.createElement('tr');
+
+        tr.innerHTML = `
+          <td>${id}</td>
+          <td>${nome}</td>
+          <td>${nivel}</td>
+          <td>${instituicao}</td>
+          <td>${duracao}</td>
+          <td><ul>${listaProfessores.map(p => `<li>${p}</li>`).join('')}</ul></td>
+        `;
+        tbody.appendChild(tr);
+      }
+
+      tabela.appendChild(tbody);
+      return tabela;
+    }
+
+    // Manipulação do botão para mostrar/esconder a tabela
+    btnToggle.addEventListener('click', async () => {
+      if (!xmlDados) {
+        xmlDados = await carregarXML();
+      }
+
+      if (!tabelaVisivel) {
+        const tabela = criarTabela(xmlDados);
+        if (tabela) {
+          tabelaContainer.innerHTML = '';  // Limpa conteúdo
+          tabelaContainer.appendChild(tabela);
+          tabelaContainer.style.display = 'block';
+          btnToggle.textContent = 'Esconder Cursos';
+          mensagem.textContent = 'Tabela de cursos carregada.';
+          mensagem.style.color = 'green';
+          tabelaVisivel = true;
+        }
+      } else {
+        tabelaContainer.style.display = 'none';
+        btnToggle.textContent = 'Mostrar Cursos';
+        mensagem.textContent = 'Clique no botão para carregar os cursos disponíveis.';
+        mensagem.style.color = 'black';
+        tabelaVisivel = false;
+      }
+    });
+
+    // Botão para alterar o texto e estilo do parágrafo
+    btnAlterarTexto.addEventListener('click', () => {
+      mensagem.textContent = "Você alterou a mensagem com sucesso!";
+      mensagem.style.color = '#e91e63';
+      mensagem.style.fontStyle = 'italic';
+    });
+  </script>
+</body>
+</html>
