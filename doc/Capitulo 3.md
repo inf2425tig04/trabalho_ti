@@ -43,9 +43,7 @@ README.md
             pattern="^([A-Za-zÀ-ÿ]+(\s)?){2,4}$"
             title="Insira entre 2 e 4 palavras, apenas letras e espaços."
             minlength="5"
-            maxlength="50"
-          >
-
+            maxlength="50>
           <label for="curiosidade">Sua curiosidade:</label>
           <textarea
             id="curiosidade"
