@@ -4,8 +4,8 @@
 
 #### Wireframe
 
-![Wireframe](img/Wireframe.png)
+![Wireframe](img2/Wireframe.png)
 
 #### SiteMap
 
-![SiteMap](img/SiteMap.png)
+![SiteMap](img2/SiteMap.png)
