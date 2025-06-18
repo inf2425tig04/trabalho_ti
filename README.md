@@ -3,6 +3,7 @@
 ## Sobre o Repositório
 
 Repositório para o projeto desenvolvido da unidade curricular 'Tecnologias de Informação', do primeiro ano na UMAIA.
+
 Desenvolvido pelo Grupo 04:
 
 - Marta Vieira  A046756
@@ -15,7 +16,9 @@ Desenvolvido pelo Grupo 04:
 
 ## Descrição do tema
 
-<!-- get desdrição -->
+O tema escolhido foi a Evolução da Educação focando numa abordagem informativa, histórica e estatística.  Assim surgiu a criação de um site educativo que apresenta informações claras e acessíveis sobre o ensino, com especial destaque para o ensino em Portugal.
+
+O objetivo principal do projeto é informar e consciencializar os utilizadores sobre a evolução do sistema educativo tornando a experiência do utilizador agradável e enriquecedora.
 
 ---
 
@@ -36,9 +39,6 @@ Desenvolvido pelo Grupo 04:
 - [XML](https://www.w3schools.com/xml/)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) + [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-<!--- [PHP](https://www.php.net/)-->
-<!--- [Node.js](https://nodejs.org/)-->
-- *(smth else maybe)*
 
 ---
 
