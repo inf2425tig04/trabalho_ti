@@ -69,7 +69,8 @@ README.md
 1. Validador HTML5 neste repositório:
 🔗 **HTML Validator**:  
 [https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
-3. Validador CSS3 neste repositório: https://jigsaw.w3.org/css-validator
+3. Validador CSS3 neste repositório: 🔗 **Validator CSS**:  
+[https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR)
 
 ![Validador](img2/validador.png)
 
