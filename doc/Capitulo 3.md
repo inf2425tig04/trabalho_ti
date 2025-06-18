@@ -64,8 +64,9 @@ README.md
 
 ### Validação (HTML e CSS), exemplos
 
-1. Validador HTML5 neste repositório: https://validator.w3.org/
-2. Validador CSS3 neste repositório: https://jigsaw.w3.org/css-validator/
+1. Validador HTML5 neste repositório: [https://validator.w3.org/](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
+2. Validador CSS3 neste repositório: https://jigsaw.w3.org/css-validator
+
 
 ## 3.5 Requisitos Mandatórios
 Page Requirements
