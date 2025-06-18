@@ -20,6 +20,7 @@ README.md
 
 3. Implantação no Netlify:
 - Conectamos o repositório GitHub à conta Netlify
+- Import GitHub -> Install Repository
 
 ## 3.2 Uso e Navegação
 
