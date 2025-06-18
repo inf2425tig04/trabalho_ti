@@ -32,7 +32,10 @@ README.md
 
 ## 3.4 Formulários (em Curiosidades)
 
- <form action="#" method="post" id="form-curiosidade">
+```html
+<section>
+        <h2>Partilhe a sua Curiosidade!</h2>
+        <form action="#" method="post" id="form-curiosidade">
           <label for="nome">Seu nome:</label>
           <input
             type="text"
@@ -43,7 +46,9 @@ README.md
             pattern="^([A-Za-zÀ-ÿ]+(\s)?){2,4}$"
             title="Insira entre 2 e 4 palavras, apenas letras e espaços."
             minlength="5"
-            maxlength="50>
+            maxlength="50"
+          >
+
           <label for="curiosidade">Sua curiosidade:</label>
           <textarea
             id="curiosidade"
@@ -57,6 +62,7 @@ README.md
 
           <button type="submit">Enviar Curiosidade</button>
         </form>
+```
 
 ### Validação (HTML e CSS), exemplos
 
