@@ -30,7 +30,7 @@ README.md
 - Caso tenha um "sub-cabeçalho", com botões também, tratam-se de navegações rápidas pela mesma página (como em "Curiosidades")
 - Rodapé contém links secundários onde fornece link para o GitHub do projeto, entre outros
 
-## 3.4 Formulários (em Curiosidades)
+## 3.3 Formulários (em "Curiosidades")
 
 ```html
 <section>
@@ -63,6 +63,7 @@ README.md
           <button type="submit">Enviar Curiosidade</button>
         </form>
 ```
+
 ## 3.4 Validação (HTML e CSS), exemplos
 Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse erro, corrigiamos e validamos novamente.
 
