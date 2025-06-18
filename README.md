@@ -42,18 +42,6 @@ O objetivo principal do projeto é informar e consciencializar os utilizadores s
 
 ---
 
-## Frameworks e Libraries
-
-<!--- - [Docker](https://www.docker.com/)
-- [Multipass](https://multipass.run/)
-- [Node.js](https://nodejs.org/)
-- [jQuery](https://jquery.com/)
-- [Laravel](https://laravel.com/)
-- [Bootstrap](https://getbootstrap.com/)-->
-- *(List any others if used)*
-
----
-
 ## Estrutura do Relatório
 
 Adicionar pelo menos uma secção (ficheiro) por capítulo, guardada na pasta `/doc`. ou documentação
