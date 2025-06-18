@@ -31,6 +31,18 @@ README.md
 - Rodapé contém links secundários onde fornece link para o GitHub do projeto, entre outros
 
 ## 3.3 Formulários (em "Curiosidades")
+Para restringir uso de caracteres, etc. Usamos este método:
+
+No primeiro, para inserir o nome:
+usando required...
+pattern="^([A-Za-zÀ-ÿ]+(\s)?){2,4}$" - Aceita apenas: Letras (incluindo acentuadas)
+2 a 4 palavras separadas por espaços
+minlength="5" e maxlength="50" - como limite de caracteres
+
+No segundo, a curiosidade:
+com required...
+rows="5" - Altura inicial (5 linhas)
+minlength="20" e maxlength="500" - limite de caracteres
 
 ```html
 <section>
