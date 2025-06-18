@@ -103,12 +103,8 @@ Requisitos Mínimos HTML
 | :---: | :---: |
 | Download do XML |       |
 | Download do XSD |       |
-| Tabela |       |
-| Lista Ordenada |       |
-| Lista Desordenada |       |
-| Lista de Descrição |       |
-| Lista Alinhada |       |
-| Marcação de Texto | ``` <em>paragraph</em> ```       <table>
+| Tabela |      
+        <table>
         <thead>
           <tr>
             <th rowspan="2">Método</th>
@@ -148,12 +144,119 @@ Requisitos Mínimos HTML
           </tr>
         </tfoot>
       </table> |
-| Imagem |      |
-| Figure |   https://github.com/exemploTrabalho/report_inf-ti/blob/f676d24207f24920710211d87ed96dd4c602720e/src/index.html#L4-L6    |
-| Figure Caption      |       |
-| Internal Link |       |
-| External Link |       |
-| Form |       |
+| Lista Ordenada |  <ol>
+            <li>Universidade de Coimbra (1290)</li>
+            <li>Universidade de Évora (1559)</li>
+            <li>Universidade de Lisboa (1911)</li>
+            <li>Universidade do Porto (1911)</li>
+            <li>Universidade Técnica de Lisboa (1930)</li>
+            <li>Universidade Nova de Lisboa (1973)</li>
+            <li>Universidade de Aveiro (1973)</li>
+            <li>Universidade do Minho (1973)</li>
+            <li>ISCTE (1972)</li>
+            <li>Universidade dos Açores (1976)</li>
+        </ol> |
+| Lista Desordenada |  <ul>
+        <li><a href="index.html">História Geral</a></li>
+        <li><a href="portugal.html">História em Portugal</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+        <li><a href="estatisticas.html">Estatísticas</a></li>
+      </ul>   |
+| Lista de Descrição |         <dl>
+        <dt><strong>Educação</strong></dt>
+        <dd>
+          <ul>
+            <li>Processo de aquisição de conhecimento, habilidades e valores.</li>
+            <li>Pode ser formal (escolas, universidades) ou informal (experiências diárias).</li>
+          </ul>
+        </dd>
+
+        <dt><strong>Sistema Educativo</strong></dt>
+        <dd>
+          <ul>
+            <li>Conjunto de instituições e políticas que regulam o ensino.</li>
+            <li>
+              Componentes principais:
+              <ul>
+                <li>Currículo escolar</li>
+                <li>Professores e formadores</li>
+                <li>Infraestruturas e recursos</li>
+              </ul>
+            </li>
+          </ul>
+        </dd>
+
+        <dt><strong>Abordagens Pedagógicas</strong></dt>
+        <dd>
+          <ul>
+            <li>Métodos utilizados para facilitar a aprendizagem.</li>
+            <li>
+              Exemplos:
+              <ul>
+                <li>Ensino tradicional</li>
+                <li>Ensino baseado em projetos</li>
+                <li>Aprendizagem colaborativa</li>
+              </ul>
+            </li>
+          </ul>
+        </dd>
+      </dl>    |
+| Lista Alinhada |     <ol class="roman-list">
+        <li>
+          <strong>Antiguidade Clássica</strong>
+          <ul>
+            <li>
+              Na <strong>Grécia Antiga</strong>, os rapazes aprendiam <strong>música</strong>, <strong>ginástica</strong> e
+              <strong>literatura</strong>, enquanto as raparigas aprendiam principalmente <strong>tarefas domésticas</strong>
+              em casa.
+            </li>
+            <li>
+              Devido ao alto custo do papel, usavam-se <strong>tábuas de cera reutilizáveis</strong> para escrever,
+              apagando-se os conteúdos com a parte plana do <em>estilete</em>.
+            </li>
+          </ul>
+        </li>  |
+| Marcação de Texto | <strong>administradores coloniais</strong> exigiu o desenvolvimento de conhecimentos técnicos 
+            específicos. A <mark>Escola de Sagres</mark> |
+| Imagem |   <img src="img/ensino_monastico.jpeg" alt="Mosteiro">   |
+| Figure |   <figure class="simbolo-figure">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/DoorBell_001.jpg/330px-DoorBell_001.jpg"
+            alt="Campainha elétrica"
+            class="simbolo-img"
+          >
+          <figcaption><em>Campainha elétrica tradicional</em></figcaption>
+        </figure>  |
+| Figure Caption      |    <figcaption><em>Campainha elétrica tradicional</em></figcaption>   |
+| Internal Link |    <a href="#formulario">Tem uma curiosidade? Envie-nos!</a>   |
+| External Link |    <a href="index.html">História Geral</a></li>   |
+| Form |             <form action="#" method="post" id="form-curiosidade">
+          <label for="nome">Seu nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Ex: Ana Silva"
+            required
+            pattern="^([A-Za-zÀ-ÿ]+(\s)?){2,4}$"
+            title="Insira entre 2 e 4 palavras, apenas letras e espaços."
+            minlength="5"
+            maxlength="50"
+          >
+
+          <label for="curiosidade">Sua curiosidade:</label>
+          <textarea
+            id="curiosidade"
+            name="curiosidade"
+            rows="5"
+            placeholder="Escreva aqui uma curiosidade sobre o ensino..."
+            required
+            minlength="20"
+            maxlength="500"
+          ></textarea>
+
+          <button type="submit">Enviar Curiosidade</button>
+        </form>  |
 
 CSS Minimum requirements (usage of/change of)
 | Requirement | Usage Example |
@@ -163,7 +266,12 @@ CSS Minimum requirements (usage of/change of)
 | Class Selector |       |
 | Pseudo-class Selector |       |
 | Attribute Selector |       |
-| Pseudo-element Selector |       |
+| Pseudo-element Selector |    h2::before {
+  content: "📘";
+  color: var(--color-secondary);
+  font-size: 1.2rem;
+  margin-right: 6px;
+}   |
 | Combinator Selector |       |
 | Change Highlight style |       |
 | Image insertion |       |
