@@ -63,8 +63,7 @@ README.md
           <button type="submit">Enviar Curiosidade</button>
         </form>
 ```
-
-### Validação (HTML e CSS), exemplos
+## 3.4 Validação (HTML e CSS), exemplos
 Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse erro, corrigiamos e validamos novamente.
 
 1. Validador HTML5 neste repositório:
