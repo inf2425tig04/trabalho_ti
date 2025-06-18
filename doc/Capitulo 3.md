@@ -65,6 +65,7 @@ README.md
 ```
 
 ### Validação (HTML e CSS), exemplos
+Inserimos cada ficheiro html e css ao respetivo site, validando-os.
 
 1. Validador HTML5 neste repositório:
 [Validador HTML5](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
