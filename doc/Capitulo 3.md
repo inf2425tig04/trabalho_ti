@@ -32,9 +32,7 @@ README.md
 
 ## 3.4 Formulários (em Curiosidades)
 
-<section>
-        <h2>Partilhe a sua Curiosidade!</h2>
-        <form action="#" method="post" id="form-curiosidade">
+ <form action="#" method="post" id="form-curiosidade">
           <label for="nome">Seu nome:</label>
           <input
             type="text"
