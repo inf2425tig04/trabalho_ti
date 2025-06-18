@@ -10,8 +10,6 @@ Desenvolvido pelo Grupo 04:
 - Juliana Moreira  A047188
 - Felipe Castilho  A047152 
 
-<!-- get team members -->
-
 ---
 
 ## Descrição do tema
@@ -24,7 +22,9 @@ O objetivo principal do projeto é informar e consciencializar os utilizadores s
 
 ## Organização do Repositório
 
-<!-- describe organização-->
+O repositório é constituido pelo diretório src, que contém  as 4 páginas estáticas incluindo o arquivo XML, XSD e CSS para o HTML e tambem um diretório img com as imagens usadas no projeto
+
+Além disto, ten o diretório doc que contém os Capitulos 1,2,3 e 4
 
 ---
 
@@ -37,8 +37,6 @@ O objetivo principal do projeto é informar e consciencializar os utilizadores s
 ---
 
 ## Estrutura do Relatório
-
-Adicionar pelo menos uma secção (ficheiro) por capítulo, guardada na pasta `/doc`. ou documentação
 
 ### Capítulo 1: Apresentação do Projeto
 Visão geral do projeto e dos seus objetivos.
