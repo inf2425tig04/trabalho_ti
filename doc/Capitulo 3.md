@@ -86,7 +86,7 @@ Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse err
 
 
 ![Validador](img2/validador.png)
-![Validador1](img2/validador1.png)
+![Validador3](img2/validador3.png)
 ![Validador2](img2/validador2.png)
 
 
