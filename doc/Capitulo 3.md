@@ -1,7 +1,7 @@
 # Capítulo 3: Product
 
 ## Descrição do Produto
-Site formado por 4 páginas estáticas (html, css e xml com respetivo xsd).
+Site formado por 4 páginas estáticas (html, css e xml com respetivo xsd) através do import do GitHub para o Netlify.
 A primeira página fala da História do Ensino, a segunda fala com maior destaque da mesma só que em Portugal,
 a terceira menciona Curiosidades e a última fornece uns dados estatísticos sobre algumas licenciaturas no país.
 
@@ -24,10 +24,10 @@ a terceira menciona Curiosidades e a última fornece uns dados estatísticos sob
 
 ## 3.2 Uso e Navegação
 
-1. Acesse o site em: [[SITE](https://inf2425tig04.netlify.app/)]
+1. Acesse o site em: [[Site Netlify](https://inf2425tig04.netlify.app/)]
 2. Navegação principal:
 - Cabeçalho com botões que permitem a navegação entre as páginas principais
-- Caso tenha um "sub-cabeçalho", com botões também, tratam-se de navegações rápidas pela mesma página (como em "Curiosidades")
+- Na página curiosidades, também tem a possibilidade de, pelo botão "(...) Envie-nos", ir ao fim da página diretamente
 - Rodapé contém links secundários onde fornece link para o GitHub do projeto, entre outros
 
 ## 3.3 Formulários (em "Curiosidades")
