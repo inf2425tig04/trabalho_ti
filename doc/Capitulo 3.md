@@ -77,7 +77,7 @@ com required...
         </form>
 ```
 
-## 3.4 Validação (HTML e CSS), exemplos
+## 3.4 Validação (HTML e CSS) e Exemplos de Validação
 Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse erro, corrigiamos e validamos novamente.
 
 1. Validador HTML5 neste repositório:
