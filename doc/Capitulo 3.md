@@ -85,9 +85,8 @@ Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse err
 3. Validador CSS3 neste repositório:[Validador CSS W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
 
 
-![Validador](img2/validador.png)
-![Validador3](img2/validador3.png)
-![Validador2](img2/validador2.png)
+![Validador HTML](img2/validador.png)
+![Validador CSS](img2/validador3.png)
 
 
 
