@@ -60,7 +60,46 @@ Requisitos Mínimos HTML
 | Lista Desordenada |       |
 | Lista de Descrição |       |
 | Lista Alinhada |       |
-| Marcação de Texto | ``` <em>paragraph</em> ``` https://https://https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L54-93 |
+| Marcação de Texto | ``` <em>paragraph</em> ```       <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Método</th>
+            <th colspan="2">Detalhes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Sistema Montessori</strong></td>
+            <td>Maria Montessori</td>
+            <td>Autoeducação em espaços preparados com materiais sensoriais. Autonomia da criança, intervenção mínima do professor e ênfase no ritmo individual.</td>
+          </tr>
+          <tr>
+            <td><strong>Pedagogia Waldorf</strong></td>
+            <td>Rudolf Steiner</td>
+            <td>Autoeducação em espaços preparados com materiais sensoriais. Autonomia da criança, intervenção mínima do professor e ênfase no ritmo individual.</td>
+          </tr>
+          <tr>
+            <td><strong>Pedagogia Waldorf</strong></td>
+            <td>Rudolf Steiner</td>
+            <td>Enfatiza imaginação e criatividade. Sem computadores até aos 14 anos, aprendizagem através de atividades artísticas e manuais.</td>
+          </tr>
+          <tr>
+            <td><strong>Escolas Democráticas</strong></td>
+            <td>A.S. Neill (Summerhill)</td>
+            <td>Escola autogovernada, frequência opcional. Liberdade exceto em questões de segurança, saúde ou direitos dos outros.</td>
+          </tr>
+          <tr>
+            <td><strong>Método Kumon</strong></td>
+            <td>Toru Kumon</td>
+            <td>Sistema japonês de aprendizagem individualizada através da repetição e progressão gradual.</td>
+        </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Fonte: Wikipédia e Britannica</td>
+          </tr>
+        </tfoot>
+      </table> |
 | Imagem |      |
 | Figure |   https://github.com/exemploTrabalho/report_inf-ti/blob/f676d24207f24920710211d87ed96dd4c602720e/src/index.html#L4-L6    |
 | Figure Caption      |       |
