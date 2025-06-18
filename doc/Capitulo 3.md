@@ -27,7 +27,7 @@ README.md
 1. Acesse o site em: [[URL do site no Netlify](https://inf2425tig04.netlify.app/)]
 2. Navegação principal:
 - Cabeçalho com botões que permitem a navegação entre as páginas principais
-- Caso tenha um `sub-cabeçalho`, com botões também, tratam-se de navegações rápidas pela mesma página (como em `Curiosidades`)
+- Caso tenha um "sub-cabeçalho", com botões também, tratam-se de navegações rápidas pela mesma página (como em "Curiosidades")
 - Rodapé contém links secundários onde fornece link para o GitHub do projeto, entre outros
 
 ## 3.4 Formulários (em Curiosidades)
@@ -67,7 +67,8 @@ README.md
 ### Validação (HTML e CSS), exemplos
 
 1. Validador HTML5 neste repositório:
-(https://validator.w3.org/nu/showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
+🔗 **HTML Validator**:  
+[https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
 3. Validador CSS3 neste repositório: https://jigsaw.w3.org/css-validator
 
 ![Validador](img2/validador.png)
