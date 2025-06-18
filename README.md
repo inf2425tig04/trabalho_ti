@@ -28,12 +28,6 @@ O objetivo principal do projeto é informar e consciencializar os utilizadores s
 
 ---
 
-## something more
-
-<!--A preview of the final result (maybe) -->
-
----
-
 ## Linguagens usadas no Projeto
 
 - [XML](https://www.w3schools.com/xml/)
