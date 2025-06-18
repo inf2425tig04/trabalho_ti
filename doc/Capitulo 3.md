@@ -29,9 +29,37 @@ README.md
 - Caso tenha um `sub-cabeçalho`, com botões também, tratam-se de navegações rápidas pela mesma página (como em `Curiosidades`)
 - Rodapé contém links secundários onde fornece link para o GitHub do projeto, entre outros
 
-## 3.4 Formulários (em Curiosidades, com required: pattern, ...)
+## 3.4 Formulários (em Curiosidades)
 
+<section>
+        <h2>Partilhe a sua Curiosidade!</h2>
+        <form action="#" method="post" id="form-curiosidade">
+          <label for="nome">Seu nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Ex: Ana Silva"
+            required
+            pattern="^([A-Za-zÀ-ÿ]+(\s)?){2,4}$"
+            title="Insira entre 2 e 4 palavras, apenas letras e espaços."
+            minlength="5"
+            maxlength="50"
+          >
 
+          <label for="curiosidade">Sua curiosidade:</label>
+          <textarea
+            id="curiosidade"
+            name="curiosidade"
+            rows="5"
+            placeholder="Escreva aqui uma curiosidade sobre o ensino..."
+            required
+            minlength="20"
+            maxlength="500"
+          ></textarea>
+
+          <button type="submit">Enviar Curiosidade</button>
+        </form>
 
 ### Validação (HTML e CSS), exemplos
 
