@@ -24,7 +24,7 @@ README.md
 
 ## 3.2 Uso e Navegação
 
-1. Acesse o site em: [URL do site no Netlify]
+1. Acesse o site em: [[URL do site no Netlify](https://inf2425tig04.netlify.app/)]
 2. Navegação principal:
 - Cabeçalho com botões que permitem a navegação entre as páginas principais
 - Caso tenha um `sub-cabeçalho`, com botões também, tratam-se de navegações rápidas pela mesma página (como em `Curiosidades`)
