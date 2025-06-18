@@ -16,7 +16,7 @@ a terceira menciona Curiosidades e a última fornece uns dados estatísticos sob
     - .html
     - .css
     - .js
-README.md
+- README.md
 
 3. Implantação no Netlify:
 - Conectamos o repositório GitHub à conta Netlify
