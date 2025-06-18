@@ -10,12 +10,12 @@ a terceira menciona Curiosidades e a última fornece uns dados estatísticos sob
 ### Organização no Github
 1. Criamos um repositório no GitHub chamado `trabalho_ti`
 2. Organizamos uma estrutura de pastas: 
-\doc
-\src com \img e 
-                \img
-                .html
-                .css
-                .js
+- \doc
+- \src com 
+    - \img
+    - .html
+    - .css
+    - .js
 README.md
 
 3. Implantação no Netlify:
