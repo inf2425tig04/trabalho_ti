@@ -11,4 +11,5 @@ Para organizar a informação e a maneira como ela era colocada e demonstrada no
 #### SiteMap
 
 ![SiteMap](img2/SiteMap.png)
+
 *Na imagem está representado o SiteMap, reprensentando os tópicos abordados em cada página do trabalho.*
