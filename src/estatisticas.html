@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Grupo 04">
+  <meta name="description" content="Estatísticas do Ensino">
+  <meta name="keywords" content="educação, estatísticas, dados, ensino">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Estatísticas do Ensino</title>
+</head>
+<body>
+  <header>
+        <div>
+      <a href="https://www.umaia.pt/" target="_blank" rel="noopener">
+        <img src="https://repositorio.umaia.pt/assets/rcaap/images/logo.png" alt="UMAIA logo" height="80">
+      </a>
+    </div>
+    <div class="logo">
+      <h1>Dados Estatísticos</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">História Geral</a></li>
+        <li><a href="portugal.html">História em Portugal</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+        <li><a href="estatisticas.html">Estatísticas</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="banner">
+  <h1>Descubra a evolução, curiosidades e informações sobre o nosso sistema educativo</h1>
+</div>
+
+  <main>
+    <h2>Números que Contam a Educação</h2>
+
+    <p id="mensagem">Clique no botão para carregar as licenciaturas disponíveis.</p>
+
+    <button id="btn-toggle-tabela">Mostrar Licenciaturas</button>
+
+    <div id="tabela-container">
+      <!-- Tabela carregada aqui via JS -->
+    </div>
+  </main>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-info">
+      <p class="footer-title">Grupo 4 - Projeto de TI</p>
+      <ul>
+        <li>Marta Vieira A046756</li>
+        <li>Juliana Moreira A047188</li>
+        <li>Felipe Castilho A047152</li>
+      </ul>
+    </div>
+    
+    <div class="footer-links">
+      <h4>Links Úteis</h4>
+      <ul>
+        <li>
+          <a href="https://github.com/inf2425tig04/trabalho_ti/blob/main/Capitulo%201.md">
+            <img src="https://cdn-icons-png.flaticon.com/24/1946/1946429.png" alt="" >
+            Sobre
+          </a>
+        </li>
+        <li>
+          <a href="https://inf2425tig01.netlify.app/">
+            <img src="https://cdn-icons-png.flaticon.com/24/2921/2921222.png" alt="" >
+            Projeto
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/inf2425tig04/trabalho_ti/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/24/733/733553.png" alt="" >
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="cursos.xml" download>
+            <img src="https://cdn-icons-png.flaticon.com/24/136/136522.png" alt="" >
+            Download XML
+          </a>
+        </li>
+        <li>
+          <a href="cursos_schema.xsd" download>
+            <img src="https://cdn-icons-png.flaticon.com/24/136/136521.png" alt="">
+            Download XSD
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+  const btnToggle = document.getElementById('btn-toggle-tabela');
+  const btnAlterarTexto = document.getElementById('btn-alterar-texto');
+  const tabelaContainer = document.getElementById('tabela-container');
+  const mensagem = document.getElementById('mensagem');
+
+  let tabelaVisivel = false;
+  let xmlDados = null;
+
+  async function carregarXML() {
+    try {
+      const response = await fetch('cursos.xml');
+      if (!response.ok) throw new Error('Erro ao carregar o XML.');
+      const xmlText = await response.text();
+      return new DOMParser().parseFromString(xmlText, "application/xml");
+    } catch (error) {
+      mensagem.textContent = "Erro: " + error.message;
+      mensagem.className = "mensagem-erro";
+      return null;
+    }
+  }
+
+  function criarTabela(xmlDoc) {
+    if (!xmlDoc) return;
+    const cursos = xmlDoc.getElementsByTagName('curso');
+    if (cursos.length === 0) {
+      mensagem.textContent = "Nenhum curso encontrado no XML.";
+      mensagem.className = "mensagem-erro";
+      return;
+    }
+
+    // título da tabela
+    const tituloTabela = document.createElement('h3');
+    tituloTabela.textContent = 'Tabela com os dados dos cursos de Licenciatura Superior em Portugal (2022)';
+    tituloTabela.classList.add('titulo-tabela');
+
+    const tabela = document.createElement('table');
+    tabela.id = 'tabela-cursos';
+
+    tabela.innerHTML = `
+      <thead>
+        <tr>
+          <th>ID</th><th>Nome do Curso</th><th>Nível</th><th>Instituição</th><th>Duração</th>
+          <th>Inscritos 1º Ano (2022)</th><th>Taxa de Abandono 1º Ano</th>
+          <th>Taxa de Conclusão 4 anos</th><th>Taxa de Conclusão 5 anos</th>
+          <th>Taxa de Conclusão 6 anos</th><th>Taxa de Empregabilidade 1 ano</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${Array.from(cursos).map(curso => {
+          const getText = tag => curso.getElementsByTagName(tag)[0]?.textContent || '-';
+          const toPct = val => val === '-' ? '-' : (parseFloat(val)*100).toFixed(1) + '%';
+          return `<tr>
+            <td>${curso.getAttribute('id')||''}</td>
+            <td>${getText('nome')}</td>
+            <td>${getText('nivel')}</td>
+            <td>${getText('instituicao')}</td>
+            <td>${getText('duracao')}</td>
+            <td>${getText('inscritos_1ano_2022')}</td>
+            <td>${toPct(getText('taxa_abandono_1ano'))}</td>
+            <td>${toPct(getText('taxa_conclusao_4anos'))}</td>
+            <td>${toPct(getText('taxa_conclusao_5anos'))}</td>
+            <td>${toPct(getText('taxa_conclusao_6anos'))}</td>
+            <td>${toPct(getText('taxa_empregabilidade_ano1'))}</td>
+          </tr>`;
+        }).join('')}
+      </tbody>`;
+
+    tabelaContainer.innerHTML = '';
+    tabelaContainer.append(tituloTabela, tabela);
+    return tabela;
+  }
+
+  btnToggle.addEventListener('click', async () => {
+    if (!xmlDados) xmlDados = await carregarXML();
+
+    tabelaVisivel = !tabelaVisivel;
+    if (tabelaVisivel) {
+      criarTabela(xmlDados);
+      tabelaContainer.classList.add('visible');
+      btnToggle.textContent = 'Esconder Licenciaturas';
+      mensagem.textContent = 'Tabela de Licenciaturas carregada.';
+      mensagem.className = 'mensagem-sucesso';
+    } else {
+      tabelaContainer.classList.remove('visible');
+      btnToggle.textContent = 'Mostrar Licenciaturas';
+      mensagem.textContent = 'Clique no botão para carregar informações sobre licenciaturas.';
+      mensagem.className = 'mensagem-default';
+    }
+  });
+
+  btnAlterarTexto.addEventListener('click', () => {
+    mensagem.textContent = "Você alterou a mensagem com sucesso!";
+    mensagem.className = 'mensagem-alterado';
+  });
+</script>
+</body>
+</html>

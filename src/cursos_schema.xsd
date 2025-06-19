@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="cursos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="curso" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nome" type="xs:string"/>
+              <xs:element name="nivel" type="xs:string"/>
+              <xs:element name="instituicao" type="xs:string"/>
+              <xs:element name="duracao" type="xs:string"/>
+              <xs:element name="inscritos_1ano_2022" type="xs:int"/>
+              <xs:element name="taxa_abandono_1ano" type="xs:decimal"/>
+              <!-- Taxa de conclusão pode variar em nome e tempo, então usamos minOccurs=0 -->
+              <xs:element name="taxa_conclusao_4anos" type="xs:decimal" minOccurs="0"/>
+              <xs:element name="taxa_conclusao_5anos" type="xs:decimal" minOccurs="0"/>
+              <xs:element name="taxa_conclusao_6anos" type="xs:decimal" minOccurs="0"/>
+              <xs:element name="taxa_empregabilidade_ano1" type="xs:decimal"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+
