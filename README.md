@@ -47,7 +47,7 @@ Wireframes, estrutura do site (sitemap) e planeamento da interface.
 ### Capítulo 3: [Produto](doc/capitulo_3.md)
 Descrição do produto final, funcionalidades e implementação. 
 
-### Capítulo 4: [Apresentação(doc/capitulo_4.md)
+### Capítulo 4: [Apresentação](doc/capitulo_4.md)
 Como o projeto será apresentado ao público ou ao professor. 
 
 ---
