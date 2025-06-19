@@ -9,7 +9,7 @@ Website educativo estático composto por 4 páginas interligadas, desenvolvido c
 - XML e XSD
 
 Páginas disponíveis:
-1. **História Geral do Ensino** - Visão geral da história do ensino
+1. **História do Ensino** - Visão geral da história do ensino
 2. **A História do Ensino em Portugal** - Abordagem restringida à história do ensino no país
 3. **Curiosidades** - Seccção com curiosidades sobre outros países, entre outros; com formulário no final
 4. **Estatísticas** - Dados sobre licenciaturas em Portugal
