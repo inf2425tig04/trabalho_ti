@@ -91,7 +91,7 @@ com required...
 ```
 
 ## 3.4 Validação (HTML e CSS) e Exemplos de Validação
-Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvesse erro, corrigiamos e validavamos novamente repetidamente até estar válido.
+Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvesse erro, corrigiamos e validavamos novamente... até estar válido após as alterações.
 
 1. Validador HTML5 neste repositório:
 [Validador HTML5](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
