@@ -6,7 +6,7 @@ Website educativo estático composto por 4 páginas interligadas, desenvolvido c
 - HTML5
 - CSS3
 - JavaScript
-- XML/XSD
+- XML e XSD
 
 Páginas disponíveis:
 1. **História Geral do Ensino** - Visão geral da história do ensino
