@@ -680,6 +680,12 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
+  background-image: url('img/footerpro.jpg'); 
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 2rem;            
+  border-radius: var(--border-radius);
 }
 
 .footer-info, .footer-links {
