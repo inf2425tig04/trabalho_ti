@@ -149,7 +149,7 @@ A validação do XML foi feita através do site: [W3Schools](https://www.w3schoo
   | External Link |   https://github.com/inf2425tig04/trabalho_ti/blob/9640d596084358c7141bce62f2b75f1577fb8bbb/src/curiosidades.html#L25  |
   | Form |     https://github.com/inf2425tig04/trabalho_ti/blob/9640d596084358c7141bce62f2b75f1577fb8bbb/src/curiosidades.html#L388-L414  |
 
- CSS Minimum requirements (usage of/change of)
+  CSS Minimum requirements (usage of/change of)
   | Requirement | Usage Example |
   | :---: | :---: |
   | Type selector |    https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L241-L247   |
@@ -170,5 +170,12 @@ A validação do XML foi feita através do site: [W3Schools](https://www.w3schoo
   | Box element style |   https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L95-L103    |
   | table style |    https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L302-L311   |
   | Responsibility style 2 screen sizes |    https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L800-L857   |
-  
-## Requisitos Extra
+  ## Requisitos Extra
+   | Requirement | Usage Example |
+  | :---: | :---: |
+  | Video Element |  https://github.com/inf2425tig04/trabalho_ti/blob/2f0aa1fa1c3fedfc18a98ae7a0161a0f7f48ab32/src/curiosidades.html#L372-L380 |
+  | Transition|  https://github.com/inf2425tig04/trabalho_ti/blob/30ce891dd03bb80e6820ab53d2a399a93feb3318/src/estilo.css#L141-L151 |
+  | Transform |https://github.com/inf2425tig04/trabalho_ti/blob/30ce891dd03bb80e6820ab53d2a399a93feb3318/src/estilo.css#L368-L376
+  | Animation | https://github.com/inf2425tig04/trabalho_ti/blob/30ce891dd03bb80e6820ab53d2a399a93feb3318/src/estilo.css#L657-L660  |
+  | Tabela com Dados do XML |  https://github.com/inf2425tig04/trabalho_ti/blob/6e34588c917d6c3474a256ca135a8bcac41a9435/src/estatisticas.html#L99-L194 |
+  | Slide Show | https://github.com/inf2425tig04/trabalho_ti/blob/30ce891dd03bb80e6820ab53d2a399a93feb3318/src/curiosidades.html#L424-L449  |
