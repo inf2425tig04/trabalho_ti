@@ -8,40 +8,40 @@ a terceira menciona Curiosidades e a última fornece uns dados estatísticos sob
 ## 3.1 Instalação
 
 ### Organização no Github
-1. Criamos um repositório no GitHub chamado `trabalho_ti`
+1. Criamos um repositório no GitHub chamado `trabalho_ti`, depois da criação da organização, adicionando cada um do grupo
 2. Organizamos uma estrutura de pastas: 
 - \doc
-- \src com 
-    - \img
-    - .html
-    - .css
-    - .js
+- \src que, por sua vez, veio a ter
+        - \img
+        - .html
+        - .css
+        - .js
 - README.md
 
 3. Implantação no Netlify:
 - Conectamos o repositório GitHub à conta Netlify
 - Import GitHub -> Install Repository
-- Configuramos para ir buscar a pasta correta, "/src"
+- Configuramos para ir buscar a pasta correta ao GitHub, "/src"
 
 ## 3.2 Uso e Navegação
 
-1. Acesse o site em: [[Site Netlify](https://inf2425tig04.netlify.app/)]
+1. Acesso ao nosso site: [[Site Netlify](https://inf2425tig04.netlify.app/)]
 2. Navegação principal:
 - Cabeçalho com botões que permitem a navegação entre as páginas principais
-- Na página curiosidades, também tem a possibilidade de, pelo botão "(...) Envie-nos", ir ao fim da página diretamente
-- Rodapé contém links secundários onde fornece link para o GitHub do projeto, entre outros
+- Na página curiosidades, também tem a possibilidade de, pelo botão "(...) Envie-nos", ir ao fim da página diretamente para a determinada secção
+- Rodapé contém links onde fornece ligação para o GitHub do projeto, entre outros
 
 ## 3.3 Formulários (em "Curiosidades")
-Para restringir uso de caracteres, etc. Usamos este método:
+Para restringir uso de caracteres e etc na validação de texto inserido pelo utilizador. Usamos este método:
 
-No primeiro, para inserir o nome:
+Primeiro, para inserir o nome:
 usando required...
 - pattern="^([A-Za-zÀ-ÿ]+(\s)?){2,4}$":
   - Aceita apenas: Letras (incluindo acentuadas)
   - 2 a 4 palavras separadas por espaços
 - minlength="5" e maxlength="50" - como limite de caracteres
 
-No segundo, a curiosidade:
+Segundo, a curiosidade:
 com required...
 - rows="5" - Altura inicial (5 linhas)
 - minlength="20" e maxlength="500" - como limite de caracteres
