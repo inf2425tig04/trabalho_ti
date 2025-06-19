@@ -180,5 +180,5 @@ A validação do XML foi feita através do site: [W3Schools](https://www.w3schoo
   | Slide Show | https://github.com/inf2425tig04/trabalho_ti/blob/30ce891dd03bb80e6820ab53d2a399a93feb3318/src/curiosidades.html#L424-L449  |
 
   ---
-[< Previous](capitulo_2.md) | [^ Main]((https://github.com/inf2425tig04/trabalho_ti/main) | [Next >](capitulo_4.md)
+[< Previous](capitulo_2.md) | [^ Main](https://github.com/inf2425tig04/trabalho_ti/main) | [Next >](capitulo_4.md)
 :--- | :---: | ---: 
