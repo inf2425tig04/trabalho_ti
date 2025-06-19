@@ -40,9 +40,8 @@ Páginas disponíveis:
    - sem autenticação requerida;    
 2. Navegação principal:
    - Cabeçalho com botões que permitem a navegação entre as páginas principais
-        - Cabeçalho com botões que permitem a navegação entre as páginas principais
-        - Na página curiosidades, também tem a possibilidade de, pelo botão "(...) Envie-nos", ir ao fim da página diretamente para a determinada secção
-        - Rodapé contém links onde fornece ligação para o GitHub do projeto, entre outros
+   - Na página curiosidades, também tem a possibilidade de, pelo botão "(...) Envie-nos", ir ao fim da página diretamente para a determinada secção
+   - Rodapé contém links onde fornece ligação para o GitHub do projeto, entre outros
 
 ## 3.3 Formulários (em "Curiosidades")
 Para restringir uso de caracteres e etc na validação de texto inserido pelo utilizador. Usamos este método:
