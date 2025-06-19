@@ -36,7 +36,7 @@ Páginas disponíveis:
 
 ## 3.2 Uso e Navegação
 
-1. Acesso ao nosso site: [[Site Netlify](https://inf2425tig04.netlify.app/)]
+1. Acesso ao nosso site: [Site Netlify](https://inf2425tig04.netlify.app/)
    - sem autenticação requerida;    
 2. Navegação principal:
    - Cabeçalho com botões que permitem a navegação entre as páginas principais;
@@ -115,7 +115,7 @@ Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvess
   | Estilo CSS | src/estilo.css |
 
 
-  A validação do XML foi feita através do site: [[W3Schools](https://www.w3schools.com/xml/xml_validator.asp)].
+  A validação do XML foi feita através do site: [W3Schools](https://www.w3schools.com/xml/xml_validator.asp).
   - Esta foi feita da mesma maneira que as páginas anteriores: verificar se válido colocando o ficheiro -> se não estiver válido, alteramos até ser válido vendo, novamente, a sua situação de validez após as alterações
 
   ![Validador XML](img2/validador4.png)
