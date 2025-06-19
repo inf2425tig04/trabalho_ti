@@ -1,9 +1,18 @@
 # Capítulo 3: Product
 
 ## Descrição do Produto
-Site formado por 4 páginas estáticas (html, css e xml com respetivo xsd) através do import do GitHub para o Netlify.
-A primeira página fala da História do Ensino, a segunda fala com maior destaque da mesma só que em Portugal,
-a terceira menciona Curiosidades e a última fornece uns dados estatísticos sobre algumas licenciaturas no país.
+
+Website educativo estático composto por 4 páginas interligadas, desenvolvido com:
+- HTML5
+- CSS3
+- JavaScript
+- XML/XSD
+
+Páginas disponíveis:
+1. **História Geral do Ensino** - Visão geral da história do ensino
+2. **A História do Ensino em Portugal** - Abordagem restringida ao ensino no país
+3. **Curiosidades** - Seccção com curiosidades sobre outros países, entre outros; com formulário no final
+4. **Estatísticas** - Dados sobre licenciaturas em Portugal
 
 ## 3.1 Instalação
 
