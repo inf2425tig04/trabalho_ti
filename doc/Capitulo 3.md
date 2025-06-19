@@ -95,7 +95,8 @@ Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvess
 
 1. Validador HTML5 neste repositório:
 [Validador HTML5](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
-2. Validador CSS3 neste repositório:[Validador CSS W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
+2. Validador CSS3 neste repositório:
+[Validador CSS W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
 
 ![Validador HTML](img2/validador.png)
 *Resultado da validação de uma das páginas html*
