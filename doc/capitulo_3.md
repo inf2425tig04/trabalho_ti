@@ -5,7 +5,7 @@
 Website educativo estático composto por 4 páginas interligadas, desenvolvido com:
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (implementado no interior do HTML)
 - XML e XSD
 
 Páginas disponíveis:
@@ -26,7 +26,6 @@ Páginas disponíveis:
    - \img
    - .html
    - .css
-   - .js
    - .xml
    - .xsd
 
