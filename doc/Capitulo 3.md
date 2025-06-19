@@ -17,9 +17,10 @@ Páginas disponíveis:
 ## 3.1 Instalação
 
 ### Organização no Github
-1. Criação da organização `inf2425tig04` no GitHub
+1. Criação da organização `inf2425tig04` no GitHub (Organizations -> New Organization)
 2. Repositório principal: `trabalho_ti`
-3. Estrutura de pastas:
+3. Adicionamos todos os membros do grupo via convite por email
+4. Estrutura de pastas:
 - \doc #documentação
 - \src #source páginas e os seus requisitos (imagens):
    - \img
