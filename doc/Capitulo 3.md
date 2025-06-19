@@ -27,6 +27,8 @@ Páginas disponíveis:
    - .html
    - .css
    - .js
+   - .xml
+   - .xsd
 
 - README.md
 
