@@ -20,8 +20,8 @@ Páginas disponíveis:
 1. Criação da organização `inf2425tig04` no GitHub
 2. Repositório principal: `trabalho_ti`
 3. Estrutura de pastas:
-- \doc
-- \src que, por sua vez, veio a ter
+- \doc #documentação
+- \src #source páginas e os seus requisitos (imagens)
         - \img
         - .html
         - .css
