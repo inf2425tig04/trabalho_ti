@@ -115,8 +115,10 @@ Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvess
   | Estilo CSS | src/estilo.css |
 
 
-  Describe how the XML validation was performed.
+  A validação do XML foi feita através do site: 
   ![Validador XML](img2/validador4.png)
+  *Resultado da validação do documento xml -> canto superior direito: sem erros*
+
 
   Requisitos Mínimos HTML
   | Requisitos | Exemplo de Uso |
