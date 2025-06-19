@@ -92,6 +92,47 @@ Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse err
 
 
 ## 3.5 Requisitos Mandatórios
+# Capítulo 3: Product
+
+## Descrição do Produto
+Site formado por 4 páginas estáticas (html, css e xml com respetivo xsd).
+A primeira página fala da História do Ensino, a segunda fala com maior destaque da mesma só que em Portugal,
+a terceira menciona Curiosidades e a última fornece uns dados estatísticos sobre algumas licenciaturas no país.
+
+## 3.1 Instalação
+
+### Organização no Github
+1. Criamos um repositório no GitHub chamado `trabalho_ti`
+2. Organizamos uma estrutura de pastas: 
+\doc
+\src com \img e 
+                \img
+                .html
+                .css
+                .js
+README.md
+
+3. Implantação no Netlify:
+- Conectamos o repositório GitHub à conta Netlify
+
+## 3.2 Uso e Navegação
+
+1. Acesse o site em: [URL do site no Netlify]
+2. Navegação principal:
+- Cabeçalho com botões que permitem a navegação entre as páginas principais
+- Caso tenha um `sub-cabeçalho`, com botões também, tratam-se de navegações rápidas pela mesma página (como em `Curiosidades`)
+- Rodapé contém links secundários onde fornece link para o GitHub do projeto, entre outros
+
+## 3.4 Formulários (em Curiosidades, com required: pattern, ...)
+
+
+
+### Validação (HTML e CSS), exemplos
+
+1. Validador HTML5 neste repositório: https://validator.w3.org/
+2. Validador CSS3 neste repositório: https://jigsaw.w3.org/css-validator/
+
+## 3.5 Requisitos Mandatórios
 Page Requirements
 | Requirement | Usage Example |
 | :---: | :---: |
@@ -106,121 +147,13 @@ Describe how the XML validation was performed.
 Requisitos Mínimos HTML
 | Requisitos | Exemplo de Uso |
 | :---: | :---: |
-| Download do XML |       |
-| Download do XSD |       |
-| Tabela |      
-        <table>
-        <thead>
-          <tr>
-            <th rowspan="2">Método</th>
-            <th colspan="2">Detalhes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Sistema Montessori</strong></td>
-            <td>Maria Montessori</td>
-            <td>Autoeducação em espaços preparados com materiais sensoriais. Autonomia da criança, intervenção mínima do professor e ênfase no ritmo individual.</td>
-          </tr>
-          <tr>
-            <td><strong>Pedagogia Waldorf</strong></td>
-            <td>Rudolf Steiner</td>
-            <td>Autoeducação em espaços preparados com materiais sensoriais. Autonomia da criança, intervenção mínima do professor e ênfase no ritmo individual.</td>
-          </tr>
-          <tr>
-            <td><strong>Pedagogia Waldorf</strong></td>
-            <td>Rudolf Steiner</td>
-            <td>Enfatiza imaginação e criatividade. Sem computadores até aos 14 anos, aprendizagem através de atividades artísticas e manuais.</td>
-          </tr>
-          <tr>
-            <td><strong>Escolas Democráticas</strong></td>
-            <td>A.S. Neill (Summerhill)</td>
-            <td>Escola autogovernada, frequência opcional. Liberdade exceto em questões de segurança, saúde ou direitos dos outros.</td>
-          </tr>
-          <tr>
-            <td><strong>Método Kumon</strong></td>
-            <td>Toru Kumon</td>
-            <td>Sistema japonês de aprendizagem individualizada através da repetição e progressão gradual.</td>
-        </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="3">Fonte: Wikipédia e Britannica</td>
-          </tr>
-        </tfoot>
-      </table> |
-| Lista Ordenada |  <ol>
-            <li>Universidade de Coimbra (1290)</li>
-            <li>Universidade de Évora (1559)</li>
-            <li>Universidade de Lisboa (1911)</li>
-            <li>Universidade do Porto (1911)</li>
-            <li>Universidade Técnica de Lisboa (1930)</li>
-            <li>Universidade Nova de Lisboa (1973)</li>
-            <li>Universidade de Aveiro (1973)</li>
-            <li>Universidade do Minho (1973)</li>
-            <li>ISCTE (1972)</li>
-            <li>Universidade dos Açores (1976)</li>
-        </ol> |
-| Lista Desordenada |  <ul>
-        <li><a href="index.html">História Geral</a></li>
-        <li><a href="portugal.html">História em Portugal</a></li>
-        <li><a href="curiosidades.html">Curiosidades</a></li>
-        <li><a href="estatisticas.html">Estatísticas</a></li>
-      </ul>   |
-| Lista de Descrição |         <dl>
-        <dt><strong>Educação</strong></dt>
-        <dd>
-          <ul>
-            <li>Processo de aquisição de conhecimento, habilidades e valores.</li>
-            <li>Pode ser formal (escolas, universidades) ou informal (experiências diárias).</li>
-          </ul>
-        </dd>
-
-        <dt><strong>Sistema Educativo</strong></dt>
-        <dd>
-          <ul>
-            <li>Conjunto de instituições e políticas que regulam o ensino.</li>
-            <li>
-              Componentes principais:
-              <ul>
-                <li>Currículo escolar</li>
-                <li>Professores e formadores</li>
-                <li>Infraestruturas e recursos</li>
-              </ul>
-            </li>
-          </ul>
-        </dd>
-
-        <dt><strong>Abordagens Pedagógicas</strong></dt>
-        <dd>
-          <ul>
-            <li>Métodos utilizados para facilitar a aprendizagem.</li>
-            <li>
-              Exemplos:
-              <ul>
-                <li>Ensino tradicional</li>
-                <li>Ensino baseado em projetos</li>
-                <li>Aprendizagem colaborativa</li>
-              </ul>
-            </li>
-          </ul>
-        </dd>
-      </dl>    |
-| Lista Alinhada |     <ol class="roman-list">
-        <li>
-          <strong>Antiguidade Clássica</strong>
-          <ul>
-            <li>
-              Na <strong>Grécia Antiga</strong>, os rapazes aprendiam <strong>música</strong>, <strong>ginástica</strong> e
-              <strong>literatura</strong>, enquanto as raparigas aprendiam principalmente <strong>tarefas domésticas</strong>
-              em casa.
-            </li>
-            <li>
-              Devido ao alto custo do papel, usavam-se <strong>tábuas de cera reutilizáveis</strong> para escrever,
-              apagando-se os conteúdos com a parte plana do <em>estilete</em>.
-            </li>
-          </ul>
-        </li>  |
+| Download do XML |    https://github.com/inf2425tig04/trabalho_ti/blob/main/src/estatisticas.html#L81-L84   |
+| Download do XSD |    https://github.com/inf2425tig04/trabalho_ti/blob/main/src/estatisticas.html#L87-L90   |
+| Tabela |     https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L54-L89 |
+| Lista Ordenada |  https://github.com/inf2425tig04/trabalho_ti/blob/main/src/portugal.html#L168-L179|
+| Lista Desordenada |  https://github.com/inf2425tig04/trabalho_ti/blob/main/src/portugal.html#L118-L123   |
+| Lista de Descrição |     https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L234-L272  |
+| Lista Alinhada |    https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L99-L139 |
 | Marcação de Texto | <strong>administradores coloniais</strong> exigiu o desenvolvimento de conhecimentos técnicos 
             específicos. A <mark>Escola de Sagres</mark> |
 | Imagem |   <img src="img/ensino_monastico.jpeg" alt="Mosteiro">   |
@@ -233,8 +166,8 @@ Requisitos Mínimos HTML
           <figcaption><em>Campainha elétrica tradicional</em></figcaption>
         </figure>  |
 | Figure Caption      |    <figcaption><em>Campainha elétrica tradicional</em></figcaption>   |
-| Internal Link |    <a href="#formulario">Tem uma curiosidade? Envie-nos!</a>   |
-| External Link |    <a href="index.html">História Geral</a></li>   |
+| Internal Link |   https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L24   |
+| External Link |   https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L25   |
 | Form |             <form action="#" method="post" id="form-curiosidade">
           <label for="nome">Seu nome:</label>
           <input
@@ -289,4 +222,5 @@ CSS Minimum requirements (usage of/change of)
 | Box element style |       |
 | table style |       |
 | Responsibility style 2 screen sizes |       |
+## Requisitos Extra
 ## Requisitos Extra
