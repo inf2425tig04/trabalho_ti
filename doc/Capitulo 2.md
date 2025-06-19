@@ -13,3 +13,4 @@ No que toca ao mobile first, ...
 #### SiteMap
 
 ![SiteMap](img2/SiteMap.png)
+*Na imagem está representado o SiteMap, reprensentando os tópicos abordados em cada página do trabalho.*
