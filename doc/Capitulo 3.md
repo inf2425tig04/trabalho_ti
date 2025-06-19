@@ -21,7 +21,7 @@ Páginas disponíveis:
 2. Repositório principal: `trabalho_ti`
 3. Estrutura de pastas:
 - \doc #documentação
-- \src #source páginas e os seus requisitos (imagens)
+- \src #source páginas e os seus requisitos (imagens):
         - \img
         - .html
         - .css
