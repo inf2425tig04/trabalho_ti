@@ -463,11 +463,11 @@ form button {
   border-radius: var(--border-radius);
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 4px 6px rgba(255, 111, 0, 0.5);
+  box-shadow: 0 4px 6px rgba(39, 56, 214, 0.5);
 }
 
 form button:hover {
-  background-color: #ffa000;
+  background-color: #40a7c7;
   transform: scale(1.05);
 }
 
