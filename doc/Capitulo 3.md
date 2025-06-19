@@ -8,7 +8,7 @@ a terceira menciona Curiosidades e a última fornece uns dados estatísticos sob
 ## 3.1 Instalação
 
 ### Organização no Github
-1. Criamos um repositório no GitHub chamado `trabalho_ti`, depois da criação da organização, adicionando cada um do grupo
+1. Criamos um repositório no GitHub chamado `trabalho_ti`, depois da criação da organização, adicionando cada membro do grupo através de convites
 2. Organizamos uma estrutura de pastas: 
 - \doc
 - \src que, por sua vez, veio a ter
