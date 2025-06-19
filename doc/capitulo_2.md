@@ -13,3 +13,7 @@ Para organizar a informação e a maneira como ela era colocada e demonstrada no
 ![SiteMap](img2/SiteMap.png)
 
 *Na imagem está representado o SiteMap, reprensentando os tópicos abordados em cada página do trabalho.*
+
+  ---
+[< Previous](capitulo_1.md) | [^ Main](https://github.com/inf2425tig04/trabalho_ti/) | [Next >](capitulo_3.md)
+:--- | :---: | ---: 
