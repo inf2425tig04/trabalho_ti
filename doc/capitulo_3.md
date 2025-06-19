@@ -1,4 +1,4 @@
-# Capítulo 3: Product
+# Capítulo 3: Produto
 
 ## Descrição do Produto
 
