@@ -116,6 +116,7 @@ Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvess
 
 
   Describe how the XML validation was performed.
+  ![Validador XML](img2/validador4.png)
 
   Requisitos Mínimos HTML
   | Requisitos | Exemplo de Uso |
