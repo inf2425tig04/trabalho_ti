@@ -116,20 +116,20 @@ Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse err
   Requisitos Mínimos HTML
   | Requisitos | Exemplo de Uso |
   | :---: | :---: |
-  | Download do XML |   https://github.com/inf2425tig04/trabalho_ti/blob/48d10ca3666fffd2d203c4b2644a4e31d35867cb/src/estatisticas.html#L81-L84  |
-  | Download do XSD |    https://github.com/inf2425tig04/trabalho_ti/blob/main/src/estatisticas.html#L87-L90   |
-  | Tabela |     https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L54-L89 |
-  | Lista Ordenada |  https://github.com/inf2425tig04/trabalho_ti/blob/main/src/portugal.html#L168-L179|
-  | Lista Desordenada |  https://github.com/inf2425tig04/trabalho_ti/blob/main/src/portugal.html#L118-L123   |
-  | Lista de Descrição |     https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L234-L272  |
-  | Lista Alinhada |    https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L99-L139 |
-  | Marcação de Texto |  |
-  | Imagem |  |
-  | Figure |    |
-  | Figure Caption      |      |
-  | Internal Link |   https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L24   |
-  | External Link |   https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L25   |
-  | Form |     |
+  | Download do XML |    https://github.com/inf2425tig04/trabalho_ti/blob/48d10ca3666fffd2d203c4b2644a4e31d35867cb/src/estatisticas.html#L81-L84  |
+  | Download do XSD |    https://github.com/inf2425tig04/trabalho_ti/blob/7f4150c8e1002bb014fe3a18a1843c8e0c62ed2f/src/estatisticas.html#L87-L90  |
+  | Tabela |     https://github.com/inf2425tig04/trabalho_ti/blob/7f4150c8e1002bb014fe3a18a1843c8e0c62ed2f/src/curiosidades.html#L54-L89 |
+  | Lista Ordenada | https://github.com/inf2425tig04/trabalho_ti/blob/7f4150c8e1002bb014fe3a18a1843c8e0c62ed2f/src/portugal.html#L168-L179 |
+  | Lista Desordenada | https://github.com/inf2425tig04/trabalho_ti/blob/7f4150c8e1002bb014fe3a18a1843c8e0c62ed2f/src/portugal.html#L118-L123  |
+  | Lista de Descrição |    https://github.com/inf2425tig04/trabalho_ti/blob/7f4150c8e1002bb014fe3a18a1843c8e0c62ed2f/src/curiosidades.html#L234-L272  |
+  | Lista Alinhada |    https://github.com/inf2425tig04/trabalho_ti/blob/7f4150c8e1002bb014fe3a18a1843c8e0c62ed2f/src/curiosidades.html#L99-L139 |
+  | Marcação de Texto | https://github.com/inf2425tig04/trabalho_ti/blob/3009672b470f7980ca1f1f719cb8853c4b1cbda4/src/portugal.html#L53-L54 |
+  | Imagem |   https://github.com/inf2425tig04/trabalho_ti/blob/3009672b470f7980ca1f1f719cb8853c4b1cbda4/src/portugal.html#L74   |
+  | Figure |   https://github.com/inf2425tig04/trabalho_ti/blob/3009672b470f7980ca1f1f719cb8853c4b1cbda4/src/portugal.html#L73-L76 |
+  | Figure Caption      |  https://github.com/inf2425tig04/trabalho_ti/blob/3009672b470f7980ca1f1f719cb8853c4b1cbda4/src/portugal.html#L75  |
+  | Internal Link |   https://github.com/inf2425tig04/trabalho_ti/blob/9640d596084358c7141bce62f2b75f1577fb8bbb/src/curiosidades.html#L24   |
+  | External Link |   https://github.com/inf2425tig04/trabalho_ti/blob/9640d596084358c7141bce62f2b75f1577fb8bbb/src/curiosidades.html#L25  |
+  | Form |     https://github.com/inf2425tig04/trabalho_ti/blob/9640d596084358c7141bce62f2b75f1577fb8bbb/src/curiosidades.html#L388-L414  |
 
   CSS Minimum requirements (usage of/change of)
   | Requirement | Usage Example |
