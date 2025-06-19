@@ -38,17 +38,17 @@ Além disto, ten o diretório doc que contém os Capitulos 1,2,3 e 4
 
 ## Estrutura do Relatório
 
-### Capítulo 1: Apresentação do Projeto
-Visão geral do projeto e dos seus objetivos.
+### Capítulo 1: [Apresentação do Projeto](doc/capitulo_1.md)
+Visão geral do projeto e dos seus objetivos. 
 
-### Capítulo 2: Protótipo da Interface e Mapa do Site
-Wireframes, estrutura do site (sitemap) e planeamento da interface.
+### Capítulo 2: [Protótipo da Interface e Mapa do Site](doc/capitulo_2.md)
+Wireframes, estrutura do site (sitemap) e planeamento da interface. 
 
-### Capítulo 3: Produto
-Descrição do produto final, funcionalidades e implementação.
+### Capítulo 3: [Produto](doc/capitulo_3.md)
+Descrição do produto final, funcionalidades e implementação. 
 
-### Capítulo 4: Apresentação
-Como o projeto será apresentado ao público ou ao professor.
+### Capítulo 4: [Apresentação(doc/capitulo_4.md)
+Como o projeto será apresentado ao público ou ao professor. 
 
 ---
 
