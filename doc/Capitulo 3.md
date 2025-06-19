@@ -106,7 +106,7 @@ Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse err
   Requisitos Mínimos HTML
   | Requisitos | Exemplo de Uso |
   | :---: | :---: |
-  | Download do XML |    https://github.com/inf2425tig04/trabalho_ti/blob/main/src/estatisticas.html#L81-L84   |
+  | Download do XML |   https://github.com/inf2425tig04/trabalho_ti/blob/48d10ca3666fffd2d203c4b2644a4e31d35867cb/src/estatisticas.html#L81-L84  |
   | Download do XSD |    https://github.com/inf2425tig04/trabalho_ti/blob/main/src/estatisticas.html#L87-L90   |
   | Tabela |     https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L54-L89 |
   | Lista Ordenada |  https://github.com/inf2425tig04/trabalho_ti/blob/main/src/portugal.html#L168-L179|
