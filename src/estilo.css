@@ -1124,3 +1124,7 @@ ul.lista-principal ul ul {
   color: #e91e63;
   font-style: italic;
 }
+::selection {
+  background-color: yellow;
+  color: black;
+}
