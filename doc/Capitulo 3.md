@@ -10,7 +10,7 @@ Website educativo estático composto por 4 páginas interligadas, desenvolvido c
 
 Páginas disponíveis:
 1. **História Geral do Ensino** - Visão geral da história do ensino
-2. **A História do Ensino em Portugal** - Abordagem restringida ao ensino no país
+2. **A História do Ensino em Portugal** - Abordagem restringida à história do ensino no país
 3. **Curiosidades** - Seccção com curiosidades sobre outros países, entre outros; com formulário no final
 4. **Estatísticas** - Dados sobre licenciaturas em Portugal
 
@@ -36,10 +36,11 @@ Páginas disponíveis:
 ## 3.2 Uso e Navegação
 
 1. Acesso ao nosso site: [[Site Netlify](https://inf2425tig04.netlify.app/)]
+   - sem autenticação requerida;    
 2. Navegação principal:
-- Cabeçalho com botões que permitem a navegação entre as páginas principais
-- Na página curiosidades, também tem a possibilidade de, pelo botão "(...) Envie-nos", ir ao fim da página diretamente para a determinada secção
-- Rodapé contém links onde fornece ligação para o GitHub do projeto, entre outros
+        - Cabeçalho com botões que permitem a navegação entre as páginas principais
+        - Na página curiosidades, também tem a possibilidade de, pelo botão "(...) Envie-nos", ir ao fim da página diretamente para a determinada secção
+        - Rodapé contém links onde fornece ligação para o GitHub do projeto, entre outros
 
 ## 3.3 Formulários (em "Curiosidades")
 Para restringir uso de caracteres e etc na validação de texto inserido pelo utilizador. Usamos este método:
@@ -89,17 +90,16 @@ com required...
 ```
 
 ## 3.4 Validação (HTML e CSS) e Exemplos de Validação
-Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse erro, corrigiamos e validamos novamente.
+Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvesse erro, corrigiamos e validavamos novamente repetidamente até estar válido.
 
 1. Validador HTML5 neste repositório:
 [Validador HTML5](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
-3. Validador CSS3 neste repositório:[Validador CSS W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
-
+2. Validador CSS3 neste repositório:[Validador CSS W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2Finf2425tig04%2Ftrabalho_ti)
 
 ![Validador HTML](img2/validador.png)
+*Resultado da validação de uma das páginas html*
 ![Validador CSS](img2/validador3.png)
-
-
+*Resultado da validação da página do css*
 
 ## 3.5 Requisitos Mandatórios
   Page Requirements
