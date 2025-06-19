@@ -120,6 +120,7 @@ A validação do XML foi feita através do site: [W3Schools](https://www.w3schoo
   - Esta foi feita da mesma maneira que as páginas anteriores: verificar se válido colocando o ficheiro -> se não estiver válido, alteramos até ser válido vendo, novamente, a sua situação de validez após as alterações
 
    ![Validador XML](img2/validador4.png)
+
 *Resultado da validação do documento xml -> canto superior direito: sem erros*
 
   Requisitos Mínimos HTML
