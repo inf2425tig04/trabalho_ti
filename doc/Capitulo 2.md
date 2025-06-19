@@ -8,7 +8,7 @@ No que toca ao mobile first, ...
 #### Wireframe
 
 ![Wireframe](img2/WireFrame.png)
-*Na imagem está representado o WireFrame, dividido em 4 partes - representação de cada página -, sendo, cada uma, uma visualização base do que poderia vir a ser cada página no projeto final.*
+*Na imagem está representado o WireFrame, dividido em 4 partes - representação de cada página -, sendo, cada uma, uma visualização base do que poderia vir a ser cada página no projeto final. Foi feito um "zoomOut" para ser possível visualizar todas*
 
 #### SiteMap
 
