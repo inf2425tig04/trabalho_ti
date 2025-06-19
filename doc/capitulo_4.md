@@ -6,4 +6,4 @@ Apresentação do nosso projeto, realizada no Canva.
 
 ---  
 [< Previous](capitulo_3.md) | [^ Main](https://github.com/inf2425tig04/trabalho_ti/edit/main/) |
-:--- | :---: | ---: 
+
