@@ -105,7 +105,7 @@ Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvess
 
 ## 3.5 Detalhes de Implementação
 
-Requisitos Mandatórios
+- Requisitos Mandatórios
   Page Requirements
   | Requirement | Usage Example |
   | :---: | :---: |
@@ -126,7 +126,7 @@ A validação do XML foi feita através do site: [W3Schools](https://www.w3schoo
 *Resultado da validação do documento xml -> canto superior direito: sem erros*
 
 
-Requisitos Mínimos HTML
+- Requisitos Mínimos HTML
   | Requisitos | Exemplo de Uso |
   | :---: | :---: |
   | Download do XML |    https://github.com/inf2425tig04/trabalho_ti/blob/48d10ca3666fffd2d203c4b2644a4e31d35867cb/src/estatisticas.html#L81-L84  |
