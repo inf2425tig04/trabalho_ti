@@ -149,17 +149,17 @@ A validação do XML foi feita através do site: [W3Schools](https://www.w3schoo
   | External Link |   https://github.com/inf2425tig04/trabalho_ti/blob/9640d596084358c7141bce62f2b75f1577fb8bbb/src/curiosidades.html#L25  |
   | Form |     https://github.com/inf2425tig04/trabalho_ti/blob/9640d596084358c7141bce62f2b75f1577fb8bbb/src/curiosidades.html#L388-L414  |
 
-    CSS Minimum requirements (usage of/change of)
+ CSS Minimum requirements (usage of/change of)
   | Requirement | Usage Example |
   | :---: | :---: |
   | Type selector |    https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L241-L247   |
   | Id selector |     https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L292-L299  |
   | Class Selector |   https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L73-L81    |
   | Pseudo-class Selector |   https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L117-L121    |
-  | Attribute Selector |       |
+  | Attribute Selector |    https://github.com/inf2425tig04/trabalho_ti/blob/0e1d7c7d52bffa6a431ba8684b6fa80cbaeda2f4/src/estilo.css#L437-L448   |
   | Pseudo-element Selector |  https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L19-L23    |
   | Combinator Selector |   https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L66-L71    |
-  | Change Highlight style |       |
+  | Change Highlight style |   https://github.com/inf2425tig04/trabalho_ti/blob/359da53eaddbc5bb25443557defac027d4aebef7/src/estilo.css#L1127-L1130    |
   | Image insertion |       |
   | Hide an element |   https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L589-L591    |
   | Text style |    https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L250-L255   |
@@ -170,5 +170,5 @@ A validação do XML foi feita através do site: [W3Schools](https://www.w3schoo
   | Box element style |   https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L95-L103    |
   | table style |    https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L302-L311   |
   | Responsibility style 2 screen sizes |    https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L800-L857   |
-
+  
 ## Requisitos Extra
