@@ -106,7 +106,8 @@ Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvess
 ## 3.5 Detalhes de Implementação
 
 - Requisitos Mandatórios
-  Page Requirements
+
+  *Page Requirements*
   | Requirement | Usage Example |
   | :---: | :---: |
   | Index HTML |  src/index.html  |
