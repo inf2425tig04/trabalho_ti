@@ -419,72 +419,72 @@
       <ul id="lista-curiosidades"></ul>
     </section>
 
-    <script>
-      // Função para atualizar visibilidade do título "Curiosidades Submetidas"
-      function atualizarVisibilidadeCuriosidades() {
-        const titulo = document.getElementById("titulo-curiosidades");
-        const lista = document.getElementById("lista-curiosidades");
+      <script>
+  
+  let slideIndex = 1;
+  showSlides(slideIndex);
 
-        if (lista.children.length > 0) {
-          titulo.style.display = "block";
-        } else {
-          titulo.style.display = "none";
-        }
-      }
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
 
-      // Função para adicionar curiosidade na lista
-      function adicionarCuriosidadeNaLista(nome, texto) {
-        const novoItem = document.createElement("li");
-        novoItem.innerHTML = `<strong>${nome}:</strong> ${texto}`;
-        lista.appendChild(novoItem);
-      }
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
 
-      const form = document.getElementById("form-curiosidade");
-      const lista = document.getElementById("lista-curiosidades");
-      const limparBtn = document.getElementById("limpar-curiosidades");
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
 
-      // Carregar curiosidades do localStorage ao iniciar a página
-      window.onload = function () {
-        const curiosidades = JSON.parse(localStorage.getItem("curiosidades")) || [];
-        curiosidades.forEach(({ nome, texto }) => {
-          adicionarCuriosidadeNaLista(nome, texto);
-        });
-        atualizarVisibilidadeCuriosidades();
-      };
+  const form = document.getElementById('form-curiosidade');
+  const lista = document.getElementById('lista-curiosidades');
 
-      // Enviar nova curiosidade
-      form.addEventListener("submit", function (e) {
-        e.preventDefault();
-        const nome = form.nome.value.trim();
-        const curiosidade = form.curiosidade.value.trim();
+  // Carregar do localStorage
+  document.addEventListener('DOMContentLoaded', () => {
+    const curiosidadesSalvas = JSON.parse(localStorage.getItem('curiosidades')) || [];
+    curiosidadesSalvas.forEach(item => adicionarCuriosidadeNaLista(item.nome, item.texto));
+  });
 
-        if (nome.length < 5 || curiosidade.length < 20) {
-          alert("Por favor, preencha todos os campos corretamente.");
-          return;
-        }
+  // Submissão
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const nome = document.getElementById('nome').value.trim();
+    const curiosidade = document.getElementById('curiosidade').value.trim();
 
-        adicionarCuriosidadeNaLista(nome, curiosidade);
+    if (nome && curiosidade) {
+      adicionarCuriosidadeNaLista(nome, curiosidade);
 
-        // Salvar no localStorage
-        const curiosidades = JSON.parse(localStorage.getItem("curiosidades")) || [];
-        curiosidades.push({ nome: nome, texto: curiosidade });
-        localStorage.setItem("curiosidades", JSON.stringify(curiosidades));
+      const curiosidadesSalvas = JSON.parse(localStorage.getItem('curiosidades')) || [];
+      curiosidadesSalvas.push({ nome: nome, texto: curiosidade });
+      localStorage.setItem('curiosidades', JSON.stringify(curiosidadesSalvas));
 
-        // Limpar campos
-        form.nome.value = "";
-        form.curiosidade.value = "";
+      form.reset();
+    }
+  });
 
-        atualizarVisibilidadeCuriosidades();
-      });
+  function adicionarCuriosidadeNaLista(nome, texto) {
+    const novoItem = document.createElement('li');
+    novoItem.innerHTML = `<strong>${nome}:</strong> ${texto}`;
+    lista.appendChild(novoItem);
+  }
 
-      // Limpar curiosidades
-      limparBtn.addEventListener("click", function () {
-        localStorage.removeItem("curiosidades");
-        lista.innerHTML = "";
-        atualizarVisibilidadeCuriosidades();
-        alert("Suas curiosidades foram removidas.");
-      });
-    </script>
+  document.getElementById('limpar-curiosidades').addEventListener('click', () => {
+    localStorage.removeItem('curiosidades');
+    lista.innerHTML = '';
+  });
+</script>
   </section>
   </main>
 
