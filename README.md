@@ -52,7 +52,7 @@ Como o projeto será apresentado ao público ou ao professor.
 
 ---
 
-## Grupo
+## Grupo 04
 
 - Marta Vieira  A046756
 - Juliana Moreira  A047188
