@@ -22,10 +22,10 @@ Páginas disponíveis:
 3. Estrutura de pastas:
 - \doc #documentação
 - \src #source páginas e os seus requisitos (imagens):
-- \img
-- .html
-- .css
-- .js
+   - \img
+   - .html
+   - .css
+   - .js
 
 - README.md
 
