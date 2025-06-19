@@ -106,10 +106,13 @@ Inserimos cada ficheiro, html e css, ao respetivo site, validando-os. Se houvess
   Page Requirements
   | Requirement | Usage Example |
   | :---: | :---: |
-  | At least 4 pages |  Add a link for at least 4 pages. |
-  | 1 XML document | Add a link for the document |
-  | 1 XSD document | Add a link for the document |
-  | CSS file (if any) | Add a link for one of the documents |
+  | Index HTML |  src/index.html  |
+  | Portugal HTML |src/portugal.html|
+  | Curiosidades HTML |src/curiosidades.html|
+  | Estatísticas HTML |src/estatisticas.html|
+  | Cursos Schema XML | src/cursos.xml |
+  | Cursos Schema XSD |src/cursos_schema.xsd |
+  | Estilo CSS | src/estilo.css |
 
 
   Describe how the XML validation was performed.
