@@ -113,47 +113,13 @@ Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse err
   | Lista Desordenada |  https://github.com/inf2425tig04/trabalho_ti/blob/main/src/portugal.html#L118-L123   |
   | Lista de Descrição |     https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L234-L272  |
   | Lista Alinhada |    https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L99-L139 |
-  | Marcação de Texto | <strong>administradores coloniais</strong> exigiu o desenvolvimento de conhecimentos técnicos 
-              específicos. A <mark>Escola de Sagres</mark> |
-  | Imagem |   <img src="img/ensino_monastico.jpeg" alt="Mosteiro">   |
-  | Figure |   <figure class="simbolo-figure">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/DoorBell_001.jpg/330px-DoorBell_001.jpg"
-              alt="Campainha elétrica"
-              class="simbolo-img"
-            >
-            <figcaption><em>Campainha elétrica tradicional</em></figcaption>
-          </figure>  |
-  | Figure Caption      |    <figcaption><em>Campainha elétrica tradicional</em></figcaption>   |
+  | Marcação de Texto |  |
+  | Imagem |  |
+  | Figure |    |
+  | Figure Caption      |      |
   | Internal Link |   https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L24   |
   | External Link |   https://github.com/inf2425tig04/trabalho_ti/blob/main/src/curiosidades.html#L25   |
-  | Form |             <form action="#" method="post" id="form-curiosidade">
-            <label for="nome">Seu nome:</label>
-            <input
-              type="text"
-              id="nome"
-              name="nome"
-              placeholder="Ex: Ana Silva"
-              required
-              pattern="^([A-Za-zÀ-ÿ]+(\s)?){2,4}$"
-              title="Insira entre 2 e 4 palavras, apenas letras e espaços."
-              minlength="5"
-              maxlength="50"
-            >
-
-            <label for="curiosidade">Sua curiosidade:</label>
-            <textarea
-              id="curiosidade"
-              name="curiosidade"
-              rows="5"
-              placeholder="Escreva aqui uma curiosidade sobre o ensino..."
-              required
-              minlength="20"
-              maxlength="500"
-            ></textarea>
-
-            <button type="submit">Enviar Curiosidade</button>
-          </form>  |
+  | Form |     |
 
   CSS Minimum requirements (usage of/change of)
   | Requirement | Usage Example |
@@ -163,12 +129,7 @@ Inserimos cada ficheiro html e css ao respetivo site, validando-os. Se desse err
   | Class Selector |       |
   | Pseudo-class Selector |       |
   | Attribute Selector |       |
-  | Pseudo-element Selector |    h2::before {
-    content: "📘";
-    color: var(--color-secondary);
-    font-size: 1.2rem;
-    margin-right: 6px;
-  }   |
+  | Pseudo-element Selector |    |
   | Combinator Selector |       |
   | Change Highlight style |       |
   | Image insertion |       |
