@@ -33,7 +33,7 @@ Desta forma, pretendemos contribuir com uma ferramenta útil para estudantes, pr
 - Marta Vieira  A046756
 - Juliana Moreira  A047188
 - Felipe Castilho  A047152 
-<!-- maybe add [@username](https://github.com/username)-->
 
-<!-- add footer and something else more creative-->
-
+  ---
+[^ Main](https://github.com/inf2425tig04/trabalho_ti/) | [Next >](capitulo_2.md)
+:--- | ---: 
