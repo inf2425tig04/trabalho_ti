@@ -47,6 +47,7 @@ Páginas disponíveis:
 Para restringir uso de caracteres e etc na validação de texto inserido pelo utilizador. Usamos este método:
 
 Primeiro, para inserir o nome:
+-  type="text"
 usando required...
 - pattern="^([A-Za-zÀ-ÿ]+(\s)?){2,4}$":
   - Aceita apenas: Letras (incluindo acentuadas)
