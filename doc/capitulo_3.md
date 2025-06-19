@@ -159,7 +159,7 @@ A validação do XML foi feita através do site: [W3Schools](https://www.w3schoo
   | Pseudo-element Selector |  https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L19-L23    |
   | Combinator Selector |   https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L66-L71    |
   | Change Highlight style |   https://github.com/inf2425tig04/trabalho_ti/blob/359da53eaddbc5bb25443557defac027d4aebef7/src/estilo.css#L1127-L1130    |
-  | Image insertion |       |
+  | Image insertion |   https://github.com/inf2425tig04/trabalho_ti/blob/c1f4d03b07fdb4709b1078e791ba029a3d17a88f/src/estilo.css#L676-L689    |
   | Hide an element |   https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L589-L591    |
   | Text style |    https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L250-L255   |
   | Font style |   https://github.com/inf2425tig04/trabalho_ti/blob/80a5eb902945a31b9f43cf2cb2b04b97cae5a866/src/estilo.css#L230-L232    |
