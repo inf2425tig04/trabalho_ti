@@ -17,7 +17,7 @@ Páginas disponíveis:
 ## 3.1 Instalação
 
 ### Organização no Github
-1. Criação da organização `inf2425tig04` no GitHub (Organizations -> New Organization)
+1. Criação da organização `inf24tig04` no GitHub (Organizations -> New Organization)
 2. Repositório principal: `trabalho_ti`
 3. Adicionamos todos os membros do grupo via convite por email
 4. Estrutura de pastas:
@@ -38,7 +38,7 @@ Páginas disponíveis:
 
 ## 3.2 Uso e Navegação
 
-1. Acesso ao nosso site: [Site Netlify](https://inf2425tig04.netlify.app/)
+1. Acesso ao nosso site: [Site Netlify](https://inf24tig04.netlify.app/)
    - sem autenticação requerida;    
 2. Navegação principal:
    - Cabeçalho com botões que permitem a navegação entre as páginas principais;
